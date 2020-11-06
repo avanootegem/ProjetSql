@@ -1,0 +1,75 @@
+#entete {
+    width: 100vw;
+    height: 8vh;
+
+    color: white;
+    background-color: rgb(70,70,70);
+    z-index: 9;
+}
+
+#entete nav.w100 {
+    position: absolute;
+
+    height: 8vh;
+}
+
+#entete div.w40 {
+    display: inline-block;
+    position: relative;
+
+    text-align: center;
+
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    font-size: 2.5em;
+}
+
+#entete ul.w45 {
+    position: absolute;
+    list-style-type: none;
+
+    top: 50%;
+    right: 3vw;
+    transform: translateY(-50%);
+
+    margin: 0;
+    text-align: right;
+}
+
+#entete li {
+    display: inline;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    font-size: 2em;
+}
+
+#entete a {
+    text-decoration: none;
+    color: white;
+}
+
+#pidepa {
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+
+    bottom: 0;
+    background-color: rgb(70,70,70);
+    z-index: 9;
+}
+
+#pidepa span {
+    position: absolute;
+    color: white;
+
+    padding-left: 2vw;
+    font-size: 2rem;
+}
+
+#pidepa #createur {
+    right: 2vw;
+}

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    min-height: 100vh;
+    background-color: rgba(70,70,70,0.2);
+}
+
+.vh100 {
+    min-height: 100vh;
+}
+
+.w3 {
+    width: 2.75vw;
+}
+
+.w6 {
+    width: 5.75vw;
+}
+
+.w10 {
+    width: 9.5vw;
+}
+
+.w11 {
+    width: 9.7vw;
+}
+
+.w20 {
+    width: 20vw;
+}
+
+.w30 {
+    width: 30vw;
+}
+
+.w40 {
+    width: 40vw;
+}
+
+.w45 {
+    width: 45vw;
+}
+
+.w50 {
+    width: 50vw;
+}
+
+.w55 {
+    width: 55vw;
+}
+
+.w60 {
+    width: 60vw;
+}
+
+.w70 {
+    width: 70vw;
+}
+
+.w80 {
+    width: 80vw;
+}
+
+.w90 {
+    width: 90vw;
+}
+
+.w100 {
+    width: 100vw;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.alert {
+    position: relative;
+    margin: 2vh 5vw;
+    font-size: 1.5rem;
+
+    width: 25vw;
+    height: 15vh;
+    text-align: center;
+}
+
+.alert div{
+    position: relative;
+    top :50%;
+
+    transform: translateY(-50%); 
+}
+
+.alert-danger {
+    color: white;
+    background-color: rgba(230,0,0, 0.5);
+    border: solid rgba(230,0,0, 0.8) 0.5rem;
+}
+
+.alert-success {
+    color: black;
+    background-color: rgba(0,180,0, 0.5);
+    border: solid rgba(0,180,0, 0.8) 0.5rem;
+}
+
+#alert ul {
+    text-align: left;
+    padding-left: 3vh;
+    list-style: inside;
+}
