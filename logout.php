@@ -1,5 +1,6 @@
 <?php
+$titre = "logout";
 session_start();
 unset($_SESSION['auth']);
-$_SESSION['flash']['succes'] = "Vous êtes maintenant déconnecter";
-header("Location: login.php"); 
+$_SESSION['flash']['success'] = "Vous êtes maintenant déconnecté";
+header("Location: login.php");

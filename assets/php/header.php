@@ -2,7 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-require_once("assets/php/fonction.php");
+require_once("assets/php/fonctions.php");
 
 ?>
 
@@ -28,6 +28,7 @@ require_once("assets/php/fonction.php");
                 <span> Proposition de films prochainement cultes </span>
             </div>
             <ul class="w45">
+                <li><a href="index.php">Accueil</a></li>
                 <?php if (isset($_SESSION['auth'])) : ?>
                     <li><a href="logout.php">Se déconnecter</a></li>
                 <?php else : ?>

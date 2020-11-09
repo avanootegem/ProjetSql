@@ -4,6 +4,7 @@ require_once("assets/php/header.php");
 
 <div id="debug">
     <?php
+    $user = "";
     if (!empty($_POST)) {
         $errors = array();
         require_once("assets/php/db.php");
