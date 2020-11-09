@@ -29,6 +29,7 @@
         exit();
     }
 ?>
+
 <?php
 require_once("assets/php/fonctions.php");
 if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) {
@@ -48,7 +49,6 @@ if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) {
     }
 }
 ?>
-
 
 <?php
 $titre = "Reset";

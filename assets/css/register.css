@@ -18,7 +18,23 @@ h1 {
     padding-left: 7vw;
     padding-top: 3vh;
 }
- 
+
+.check {
+    padding-top: 2vh !important;
+}
+
+.check label {
+    font-size: 1.8rem;
+}
+
+#check {
+    width: 3vh !important;
+    height: 3vh;
+    padding: 3vh;
+    margin-right: 0.5vw;
+    vertical-align: middle;
+}
+
 input {
     font-size: 1.5rem;
     padding: 0.5rem;
