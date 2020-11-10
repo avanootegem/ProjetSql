@@ -23,7 +23,6 @@ if (!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) 
             $req->execute([$remember_token, $user->user_id]);
             setcookie("remember", $user->user_id."//".$remember_token. sha1($user->user_id."ratonlaveurs"), time() + 60 * 60 * 24 * 7);
         }
-        
         header('Location: account.php');
         exit();
     } else {

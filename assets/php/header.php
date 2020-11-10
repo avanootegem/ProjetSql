@@ -18,6 +18,7 @@ require_once("assets/php/fonctions.php");
     <link rel="stylesheet" href="assets/css/head_foot.css">
     <link rel="stylesheet" href="assets/css/style_sheet.css">
     <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="stylesheet" href="assets/css/block_idea.css">
     <script src="https://kit.fontawesome.com/00ba05901f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -30,7 +31,9 @@ require_once("assets/php/fonctions.php");
             <ul class="w45">
                 <li><a href="index.php">Accueil</a></li>
                 <?php if (isset($_SESSION['auth'])) : ?>
-                    <li><a href="logout.php">Se déconnecter</a></li>
+                    <li><a href="my_idea.php">Mes idées</a></li>
+                    <li><a href="all_ideas.php">Toutes les idées</a></li>
+                    <li><a href="logout.php">Déconnexion</a></li>
                 <?php else : ?>
                     <li> <a href="register.php">S'inscrire </a></li>
                     <li> <a href="login.php">Se connecter</a></li>

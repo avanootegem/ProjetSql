@@ -50,3 +50,30 @@ button.form-group {
     background-color: rgb(70,70,70);
     color: white;
 }
+
+.explication {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 100vw;
+
+    left: 50vw;
+    top: 20vh;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.explication h1 {
+    padding-left: 0;
+}
+
+.text {
+    position: absolute;
+
+    width: 40vw;
+    text-align: center;
+
+    left: 50vw;
+
+    transform: translate(-50%, 100%);
+}
