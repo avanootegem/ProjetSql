@@ -3,6 +3,7 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 require_once("assets/php/fonctions.php");
+require_once("assets/php/db.php");
 
 ?>
 
@@ -55,3 +56,10 @@ require_once("assets/php/fonctions.php");
         <?php endforeach;
             unset($_SESSION['flash']);
         endif; ?>
+
+        <?php
+        $pdo->prepare("ALTER TABLE movies_idea DROP movie_id")->execute();
+        $pdo->prepare("ALTER TABLE movies_idea ADD movie_id BIGINT(200) NOT NULL AUTO_INCREMENT FIRST ,ADD PRIMARY KEY (movie_id)")->execute();
+        
+        $pdo->prepare("ALTER TABLE users DROP user_id")->execute();
+        $pdo->prepare("ALTER TABLE users ADD user_id BIGINT(200) NOT NULL AUTO_INCREMENT FIRST ,ADD PRIMARY KEY (user_id)")->execute();

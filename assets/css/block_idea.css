@@ -1,5 +1,4 @@
 #all_ideas {
-
     width: 96vw;
     padding-left: 2vw;
 
@@ -14,6 +13,7 @@
 
     padding-right: 1.5vw;
     padding-left: 1.5vw;
+    margin-bottom: 2vh;
 
     background-image: url("../img/parchemin.png") !important;
     background-repeat: no-repeat;
@@ -45,11 +45,40 @@
 
 .autor {
     position: relative;
-    width: 20vw;
+    display: inline-block;
+    width: 15vw;
+    font-size: 2rem;
 
-    left: 50%;
+    left: 35%;
     transform: translateX(-50%);
     text-align: right;
 
     padding-top: 10%;
+}
+
+#title_ideas_page {
+    padding-bottom: 2vh;
+    width: 75vw;
+    display: inline-block;
+}
+
+.buttonNewMovie {
+    display: inline-block;
+}
+
+#bottomHistory form {
+    position: relative;
+    display: inline-block;
+
+    left: 15%;
+    padding-right: 1vw;
+}
+
+#bottomHistory input {
+    width: 2vw;
+    height: 2vw;
+}
+
+#autorAll {
+    left: 60%;  
 }
