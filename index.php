@@ -7,4 +7,4 @@ require_once("assets/php/header.php");
     <p class="text">Apres avoir créer votre compte, vous pourrez proposez des idées de films et consultez les idées des autres</p>
 </div>
 
-<?php require_once("assets/php/footer.php"); ?>
+    <?php require_once("assets/php/footer.php"); ?>

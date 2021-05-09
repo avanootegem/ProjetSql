@@ -19,10 +19,7 @@ if(!empty($_POST) && !empty($_POST['email'])) {
         $_SESSION['flash']['danger'] = "Aucun compte de correspond à cet adresse";
     }
 }
-?>
 
-
-<?php
 $titre = "login";
 require_once("assets/php/header.php"); ?>
 
